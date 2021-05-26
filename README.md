@@ -27,14 +27,20 @@ Testing
 
 In one terminal window, run nlmon:
 
-    ./nlmon
+    ./nlmon -v
 
 In another terminal window, create and delete a VETH pair:
 
     sudo ip link add veth1 type veth peer name veth1-peer
     sudo ip link del veth1
 
-There should be output from nlmon in the first window.
+There should be output from nlmon in the first window:
+
+    ./nlmon -v
+    nlmon: veth iface veth1 deleted
+    nlmon: veth iface veth1-peer deleted
+    nlmon: veth iface veth1-peer added
+    nlmon: veth iface veth1 added
 
 
 Origin & References
