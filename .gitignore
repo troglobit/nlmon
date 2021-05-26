@@ -1,3 +1,6 @@
+# Project specific
+nlmon
+
 # Prerequisites
 *.d
 
@@ -41,6 +44,10 @@
 *.su
 *.idb
 *.pdb
+
+# Backup files
+*~
+*.bak
 
 # Kernel Module Compile Results
 *.mod*
