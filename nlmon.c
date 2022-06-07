@@ -1,7 +1,7 @@
 /* nlmon - monitor kernel netlink events for interface changes
  *
  * Copyright (C) 2009-2011  Mårten Wikström <marten.wikstrom@keystream.se>
- * Copyright (C) 2009-2021  Joachim Wiberg <troglobit@gmail.com>
+ * Copyright (C) 2009-2022  Joachim Wiberg <troglobit@gmail.com>
  * Copyright (c) 2015       Tobias Waldekranz <tobias@waldekranz.com>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
